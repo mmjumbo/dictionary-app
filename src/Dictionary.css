@@ -1,0 +1,10 @@
+.Search {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Search input {
+  width: 300px;  /* or any specific width you want */
+}

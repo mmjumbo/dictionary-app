@@ -10,11 +10,28 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset"/>
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>This SheCodes project is created by Maggie</small>
-          </footer>
+          <small>
+            This SheCodes project is created by Maggie, open-sourced on{" "}
+            <a
+              href="https://github.com/mmjumbo/dictionary-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://regal-genie-5f55bb.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>{" "}
+          </small>
+        </footer>
       </div>
     </div>
   );
